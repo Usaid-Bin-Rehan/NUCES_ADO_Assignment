@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a small intro about myself.</p>
+    </section>
+
+    <!-- Projects Page -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <label for="filter">Filter by Technology:</label>
+        <input type="text" id="filter" oninput="filterProjects()">
+        
+        <ul id="projectList">
+            <!-- Projects will be dynamically added here -->
+        </ul>
+    </section>
+
+    <!-- Education Page -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul id="educationList">
+            <!-- Education details will be dynamically added here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
