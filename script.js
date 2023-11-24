@@ -76,6 +76,23 @@ function displayProjects(projects) {
     });
 }
 
+
+const certifications = [
+    { name: 'Certification 1', year: '2022' },
+    { name: 'Certification 2', year: '2023' },
+];
+
+function displayCertifications() {
+    const certificationsList = document.getElementById('certificationsList');
+    certificationsList.innerHTML = '';
+
+    certifications.forEach(certification => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${certification.name} - ${certification.authority} (${certification.year})`;
+        certificationsList.appendChild(listItem);
+    });
+}
+
 function displayEducation() {
     const educationList = document.getElementById('educationList');
     educationList.innerHTML = '';
@@ -85,8 +102,9 @@ function displayEducation() {
         listItem.textContent = `${course.course} at ${course.school} (${course.year})`;
         educationList.appendChild(listItem);
     });
+    displayCertifications();
 }
 
-// Initial display
 displayProjects(projects);
 displayEducation();
+displayCertifications();
