@@ -34,7 +34,7 @@ const education = [
     { course: 'Database Systems', school: 'FAST', year: 'Semester 4' },
     { course: 'Operating Systems', school: 'FAST', year: 'Semester 4' },
     { course: 'Design & Analysis of Algorithms', school: 'FAST', year: 'Semester 4' },
-    { course: 'Probability & Statistics', school: 'FAST', year: 'Semester 4' },
+    { course: 'Probability & Statistics', school: 'FASTT', year: 'Semester 4' },
     { course: 'Fundamentals of Management', school: 'FAST', year: 'Semester 4' },
     { course: 'Theory of Automata', school: 'FAST', year: 'Semester 5' },
     { course: 'Computer Networks', school: 'FAST', year: 'Semester 5' },
