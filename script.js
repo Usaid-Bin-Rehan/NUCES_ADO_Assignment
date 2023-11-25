@@ -8,7 +8,7 @@ const projects = [
 
 const education = [
     { course: 'English', school: 'Foundation Public School', year: '9th Grade' },
-    { course: 'Maths', school: 'Foundation Public School', year: '9th Grade' },
+    { course: 'Maths', school: 'Foundation Public Schol', year: '9th Grade' },
     { course: 'Physics', school: 'Foundation Public School', year: '9th Grade' },
     { course: 'Chemistry', school: 'Foundation Public School', year: '9th Grade' },
     { course: 'Biology', school: 'Foundation Public School', year: '9th Grade' },
